@@ -33,7 +33,7 @@ class Podracer:
 
 class AnakinsPod(Podracer):
     def __init__(self, max_speed, condition, price):
-        super().__init__(max_speed, condition, price):
+        super().__init__(max_speed, condition, price)
 
     def boost(self):
         self.max_speed *=2
